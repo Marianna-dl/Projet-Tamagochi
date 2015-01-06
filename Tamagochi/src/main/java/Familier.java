@@ -1,24 +1,40 @@
+package org.gradle;
+
+import java.util.Random;
 
 public class Familier {
- private static int vieMax=30;
+ private static int VIEMAX=30;
  private int vie;
  private String nom;
- private ComportementMourrir comportement;
+ //private ComportementMourir comportement;
  public Familier( String noms){
 	 this.nom=noms;
+	 this.vie=VIEMAX;
  }
  
- public void perdreVie(){
-	 
+ 
+ public int verifierEtat(){
+	 return this.vie;
+ }
+ 
+ public int perdreVie(){
+		Random r = new Random() ;
+    	int indice=r.nextInt(1);
+    	return indice;
  }
  public void nourrir(){
+	 if (this.vie<VIEMAX)
+		{
+		 	this.vie+=2;
+		}
 	 
  }
  
- public void executeMort(){
+ /*public void executeMort(){
+	 this.comp.mort();
 	 
- }
- public void setComportement(ComportementMourrir comp){
+ }*/
+ /*public void setComportement(ComportementMourir comp){
 	 this.comportement=comp;
- }
+ }*/
 }
