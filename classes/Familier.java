@@ -23,7 +23,7 @@ public class Familier {
  public void perdreVie(){
 		Random r = new Random() ;
     	int indice=r.nextInt(2);
-    	if (indice==1 && this.vie>0){
+    	if (indice==1 && this.vie>=5){
     		this.vie-=5;
     	}
 

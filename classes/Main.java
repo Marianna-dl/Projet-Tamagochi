@@ -43,7 +43,7 @@ public class Main {
 			System.exit(0);
 		}
 		familier.perdreVie();
-		}while(familier.verifierEtat() <0);
+		}while(familier.verifierEtat() >0);
 
 	}
 
