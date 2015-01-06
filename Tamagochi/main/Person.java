@@ -24,7 +24,7 @@ public class Person {
         return this.comp;
     }
     
-    public void exeMort(){
-    	this.comp.mort();
+    public String exeMort(){
+    	return this.comp.mort();
     }
 }
