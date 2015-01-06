@@ -6,7 +6,7 @@ public class Familier {
  private static int VIEMAX=30;
  private int vie;
  private String nom;
- //private ComportementMourir comportement;
+ private ComportementMourir comportement;
  public Familier( String noms){
 	 this.nom=noms;
 	 this.vie=VIEMAX;
@@ -19,7 +19,7 @@ public class Familier {
  
  public int perdreVie(){
 		Random r = new Random() ;
-    	int indice=r.nextInt(1);
+    	int indice=r.nextInt(2);
     	return indice;
  }
  public void nourrir(){
@@ -30,11 +30,12 @@ public class Familier {
 	 
  }
  
- /*public void executeMort(){
-	 this.comp.mort();
+public void executeMort(){
+	 this.comportement.mort();
 	 
- }*/
- /*public void setComportement(ComportementMourir comp){
+ }
+
+ public void setComportement(ComportementMourir comp){
 	 this.comportement=comp;
- }*/
+ }
 }
