@@ -23,7 +23,11 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
+<<<<<<< HEAD
 <page aggregateWorkingSetId="Aggregate for window 1420531723174" focus="true" label="Workspace - Resource">
+=======
+<page aggregateWorkingSetId="Aggregate for window 1420531696313" focus="true" label="Workspace - Resource">
+>>>>>>> 5d7ce999d5e3cf9a0c6f748daa59e53b1e9a30f4
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -113,7 +117,11 @@
 </presentation>
 </folder>
 </info>
+<<<<<<< HEAD
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1028c44" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
+=======
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5570e2" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
+>>>>>>> 5d7ce999d5e3cf9a0c6f748daa59e53b1e9a30f4
 <folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="1">
 <page content="org.eclipse.ui.internal.introview" label="Welcome"/>
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
