@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="19" version="2.0">
 <workbenchAdvisor/>
+<<<<<<< HEAD
 <window height="765" width="1020" x="154" y="161">
 <fastViewData fastViewLocation="1024"/>
+=======
+<window height="696" width="1024" x="0" y="31">
+<fastViewData fastViewLocation="1024"/>
+<intro standby="false"/>
+>>>>>>> presentation
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
@@ -22,7 +28,15 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
+<<<<<<< HEAD
 <page aggregateWorkingSetId="Aggregate for window 1420531387159" focus="true" label="Workspace - Resource">
+=======
+<<<<<<< HEAD
+<page aggregateWorkingSetId="Aggregate for window 1420531723174" focus="true" label="Workspace - Resource">
+=======
+<page aggregateWorkingSetId="Aggregate for window 1420531696313" focus="true" label="Workspace - Resource">
+>>>>>>> 5d7ce999d5e3cf9a0c6f748daa59e53b1e9a30f4
+>>>>>>> presentation
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -36,8 +50,16 @@
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
+<<<<<<< HEAD
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
+=======
+<view id="org.eclipse.ui.internal.introview" partName="Welcome">
+<viewState>
+<presentation currentPage="root" restore="true"/>
+<standbyPart/>
+</viewState>
+>>>>>>> presentation
 </view>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
@@ -55,7 +77,11 @@
 <viewState/>
 </view>
 </views>
+<<<<<<< HEAD
 <perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.ui.resourcePerspective">
+=======
+<perspectives activePart="org.eclipse.ui.internal.introview" activePerspective="org.eclipse.ui.resourcePerspective">
+>>>>>>> presentation
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -94,7 +120,11 @@
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.TaskList"/>
+<<<<<<< HEAD
 <view id="org.eclipse.ui.console.ConsoleView"/>
+=======
+<view id="org.eclipse.ui.internal.introview"/>
+>>>>>>> presentation
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -109,6 +139,7 @@
 </presentation>
 </folder>
 </info>
+<<<<<<< HEAD
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1c29923" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
@@ -130,6 +161,33 @@
 </folder>
 </info>
 <info folder="true" part="bottomLeft" ratio="0.49922958" ratioLeft="324" ratioRight="325" relationship="4" relative="topLeft">
+=======
+<<<<<<< HEAD
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1028c44" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
+=======
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5570e2" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
+>>>>>>> 5d7ce999d5e3cf9a0c6f748daa59e53b1e9a30f4
+<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="1">
+<page content="org.eclipse.ui.internal.introview" label="Welcome"/>
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.6585789" ratioLeft="380" ratioRight="197" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.49913344" ratioLeft="288" ratioRight="289" relationship="4" relative="topLeft">
+>>>>>>> presentation
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
@@ -149,9 +207,12 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<<<<<<< HEAD
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
+=======
+>>>>>>> presentation
 <trimArea IMemento.internal.id="1024">
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
