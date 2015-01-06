@@ -7,20 +7,26 @@ public class Familier {
  private int vie;
  private String nom;
  private ComportementMourir comportement;
+ 
  public Familier( String noms){
 	 this.nom=noms;
 	 this.vie=VIEMAX;
  }
  
- 
+ public String getName(){
+	 return this.nom;
+ }
  public int verifierEtat(){
 	 return this.vie;
  }
  
- public int perdreVie(){
+ public void perdreVie(){
 		Random r = new Random() ;
     	int indice=r.nextInt(2);
-    	return indice;
+    	if (indice==1 && this.vie>0){
+    		this.vie-=5;
+    	}
+
  }
  public void nourrir(){
 	 if (this.vie<VIEMAX)
