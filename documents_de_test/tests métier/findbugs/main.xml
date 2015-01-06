@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="0" timestamp="1420539795983" analysisTimestamp="1420539796108" release="">
+  <Project projectName="">
+    <Jar>C:\Users\Marianna\workspace\Tamagochi\build\classes\main\org\gradle\ComportementMourir.class</Jar>
+    <Jar>C:\Users\Marianna\workspace\Tamagochi\build\classes\main\org\gradle\Dragon.class</Jar>
+    <Jar>C:\Users\Marianna\workspace\Tamagochi\build\classes\main\org\gradle\Familier.class</Jar>
+    <Jar>C:\Users\Marianna\workspace\Tamagochi\build\classes\main\org\gradle\Fatigue.class</Jar>
+    <Jar>C:\Users\Marianna\workspace\Tamagochi\build\classes\main\org\gradle\FinBatterie.class</Jar>
+    <Jar>C:\Users\Marianna\workspace\Tamagochi\build\classes\main\org\gradle\Person.class</Jar>
+    <Jar>C:\Users\Marianna\workspace\Tamagochi\build\classes\main\org\gradle\Robot.class</Jar>
+    <AuxClasspathEntry>C:\Users\Marianna\.gradle\caches\modules-2\files-2.1\commons-collections\commons-collections\3.2\f951934aa5ae5a88d7e6dfaa6d32307d834a88be\commons-collections-3.2.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Marianna\workspace\Tamagochi\src\main\java\org\gradle\ComportementMourir.java</SrcDir>
+    <SrcDir>C:\Users\Marianna\workspace\Tamagochi\src\main\java\org\gradle\Dragon.java</SrcDir>
+    <SrcDir>C:\Users\Marianna\workspace\Tamagochi\src\main\java\org\gradle\Familier.java</SrcDir>
+    <SrcDir>C:\Users\Marianna\workspace\Tamagochi\src\main\java\org\gradle\Fatigue.java</SrcDir>
+    <SrcDir>C:\Users\Marianna\workspace\Tamagochi\src\main\java\org\gradle\FinBatterie.java</SrcDir>
+    <SrcDir>C:\Users\Marianna\workspace\Tamagochi\src\main\java\org\gradle\Person.java</SrcDir>
+    <SrcDir>C:\Users\Marianna\workspace\Tamagochi\src\main\java\org\gradle\Robot.java</SrcDir>
+  </Project>
+  <BugInstance type="UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR" priority="3" rank="20" abbrev="UwF" category="STYLE">
+    <Class classname="org.gradle.Familier">
+      <SourceLine classname="org.gradle.Familier" start="6" end="46" sourcefile="Familier.java" sourcepath="org/gradle/Familier.java"/>
+    </Class>
+    <Field classname="org.gradle.Familier" name="comportement" signature="Lorg/gradle/ComportementMourir;" isStatic="false">
+      <SourceLine classname="org.gradle.Familier" sourcefile="Familier.java" sourcepath="org/gradle/Familier.java"/>
+    </Field>
+    <Method classname="org.gradle.Familier" name="executeMort" signature="()V" isStatic="false">
+      <SourceLine classname="org.gradle.Familier" start="40" end="42" startBytecode="0" endBytecode="55" sourcefile="Familier.java" sourcepath="org/gradle/Familier.java"/>
+    </Method>
+    <SourceLine classname="org.gradle.Familier" start="40" end="40" startBytecode="4" endBytecode="4" sourcefile="Familier.java" sourcepath="org/gradle/Familier.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 6 Jan 2015 11:23:15 +0100" total_classes="7" referenced_classes="20" total_bugs="1" total_size="65" num_packages="1" java_version="1.8.0_25" vm_version="25.25-b02" cpu_seconds="18.61" clock_seconds="20.10" peak_mbytes="67.05" alloc_mbytes="726.94" gc_seconds="0.17" priority_3="1">
+    <PackageStats package="org.gradle" total_bugs="1" total_types="7" total_size="65" priority_3="1">
+      <ClassStats class="org.gradle.ComportementMourir" sourceFile="ComportementMourir.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.gradle.Dragon" sourceFile="Dragon.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="org.gradle.Familier" sourceFile="Familier.java" interface="false" size="32" bugs="1" priority_3="1"/>
+      <ClassStats class="org.gradle.Fatigue" sourceFile="Fatigue.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="org.gradle.FinBatterie" sourceFile="FinBatterie.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="org.gradle.Person" sourceFile="Person.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.gradle.Robot" sourceFile="Robot.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="5601" invocations="359" avgMicrosecondsPerInvocation="15604" maxMicrosecondsPerInvocation="2023992" standardDeviationMircosecondsPerInvocation="126084"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="3890" invocations="20" avgMicrosecondsPerInvocation="194540" maxMicrosecondsPerInvocation="2098835" standardDeviationMircosecondsPerInvocation="483536"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="1974" invocations="7" avgMicrosecondsPerInvocation="282083" maxMicrosecondsPerInvocation="1949207" standardDeviationMircosecondsPerInvocation="680642"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="910" invocations="16" avgMicrosecondsPerInvocation="56895" maxMicrosecondsPerInvocation="874025" standardDeviationMircosecondsPerInvocation="210991"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="900" invocations="327" avgMicrosecondsPerInvocation="2754" maxMicrosecondsPerInvocation="358110" standardDeviationMircosecondsPerInvocation="22600"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
