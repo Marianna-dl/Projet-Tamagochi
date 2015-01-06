@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.1" sequence="0" timestamp="1420545016000" analysisTimestamp="1420544280072" release="">
+  <Project projectName="">
+    <Jar>/home/usager/11223892/workspace/Main/build/classes/main/org/gradle/Menu.class</Jar>
+    <Jar>/home/usager/11223892/workspace/Main/build/classes/main/org/gradle/Familier.class</Jar>
+    <Jar>/home/usager/11223892/workspace/Main/build/classes/main/org/gradle/Person.class</Jar>
+    <Jar>/home/usager/11223892/workspace/Main/build/classes/main/org/gradle/ComportementMourir.class</Jar>
+    <Jar>/home/usager/11223892/workspace/Main/build/classes/main/org/gradle/Robot.class</Jar>
+    <Jar>/home/usager/11223892/workspace/Main/build/classes/main/org/gradle/Main.class</Jar>
+    <Jar>/home/usager/11223892/workspace/Main/build/classes/main/org/gradle/Dragon.class</Jar>
+    <Jar>/home/usager/11223892/workspace/Main/build/classes/main/org/gradle/Fatigue.class</Jar>
+    <Jar>/home/usager/11223892/workspace/Main/build/classes/main/org/gradle/FinBatterie.class</Jar>
+    <AuxClasspathEntry>/home/usager/11223892/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2/f951934aa5ae5a88d7e6dfaa6d32307d834a88be/commons-collections-3.2.jar</AuxClasspathEntry>
+    <SrcDir>/home/usager/11223892/workspace/Main/src/main/java/org/gradle/Main.java</SrcDir>
+    <SrcDir>/home/usager/11223892/workspace/Main/src/main/java/org/gradle/Person.java</SrcDir>
+    <SrcDir>/home/usager/11223892/workspace/Main/src/main/java/org/gradle/FinBatterie.java</SrcDir>
+    <SrcDir>/home/usager/11223892/workspace/Main/src/main/java/org/gradle/Fatigue.java</SrcDir>
+    <SrcDir>/home/usager/11223892/workspace/Main/src/main/java/org/gradle/Robot.java</SrcDir>
+    <SrcDir>/home/usager/11223892/workspace/Main/src/main/java/org/gradle/Dragon.java</SrcDir>
+    <SrcDir>/home/usager/11223892/workspace/Main/src/main/java/org/gradle/Menu.java</SrcDir>
+    <SrcDir>/home/usager/11223892/workspace/Main/src/main/java/org/gradle/ComportementMourir.java</SrcDir>
+    <SrcDir>/home/usager/11223892/workspace/Main/src/main/java/org/gradle/Familier.java</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N">
+    <Class classname="org.gradle.Main">
+      <SourceLine classname="org.gradle.Main" start="5" end="48" sourcefile="Main.java" sourcepath="org/gradle/Main.java"/>
+    </Class>
+    <Method classname="org.gradle.Main" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="org.gradle.Main" start="11" end="48" startBytecode="0" endBytecode="383" sourcefile="Main.java" sourcepath="org/gradle/Main.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="607" end="608" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="org.gradle.Main" start="13" end="13" startBytecode="15" endBytecode="15" sourcefile="Main.java" sourcepath="org/gradle/Main.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N">
+    <Class classname="org.gradle.Main">
+      <SourceLine classname="org.gradle.Main" start="5" end="48" sourcefile="Main.java" sourcepath="org/gradle/Main.java"/>
+    </Class>
+    <Method classname="org.gradle.Main" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="org.gradle.Main" start="11" end="48" startBytecode="0" endBytecode="383" sourcefile="Main.java" sourcepath="org/gradle/Main.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="607" end="608" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="org.gradle.Main" start="33" end="33" startBytecode="91" endBytecode="91" sourcefile="Main.java" sourcepath="org/gradle/Main.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="1">
+    <MissingClass>javax.annotation.Nonnull</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Tue, 6 Jan 2015 12:50:16 +0100" total_classes="9" referenced_classes="24" total_bugs="2" total_size="113" num_packages="1" vm_version="23.25-b01" cpu_seconds="7.20" clock_seconds="3.83" peak_mbytes="87.07" alloc_mbytes="455.12" gc_seconds="0.04" priority_1="2">
+    <PackageStats package="org.gradle" total_bugs="2" total_types="9" total_size="113" priority_1="2">
+      <ClassStats class="org.gradle.ComportementMourir" sourceFile="ComportementMourir.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.gradle.Dragon" sourceFile="Dragon.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="org.gradle.Familier" sourceFile="Familier.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="org.gradle.Fatigue" sourceFile="Fatigue.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="org.gradle.FinBatterie" sourceFile="FinBatterie.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="org.gradle.Main" sourceFile="Main.java" interface="false" size="27" bugs="2" priority_1="2"/>
+      <ClassStats class="org.gradle.Menu" sourceFile="Menu.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="org.gradle.Person" sourceFile="Person.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.gradle.Robot" sourceFile="Robot.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="560" invocations="335" avgMicrosecondsPerInvocation="1673" maxMicrosecondsPerInvocation="31427" standardDeviationMircosecondsPerInvocation="3335"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="372" invocations="24" avgMicrosecondsPerInvocation="15536" maxMicrosecondsPerInvocation="119078" standardDeviationMircosecondsPerInvocation="29000"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="349" invocations="24" avgMicrosecondsPerInvocation="14576" maxMicrosecondsPerInvocation="132227" standardDeviationMircosecondsPerInvocation="30831"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="240" invocations="24" avgMicrosecondsPerInvocation="10015" maxMicrosecondsPerInvocation="105452" standardDeviationMircosecondsPerInvocation="21840"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="107" invocations="24" avgMicrosecondsPerInvocation="4481" maxMicrosecondsPerInvocation="31855" standardDeviationMircosecondsPerInvocation="8289"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="93" invocations="24" avgMicrosecondsPerInvocation="3899" maxMicrosecondsPerInvocation="20031" standardDeviationMircosecondsPerInvocation="6180"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="80" invocations="317" avgMicrosecondsPerInvocation="252" maxMicrosecondsPerInvocation="18307" standardDeviationMircosecondsPerInvocation="1139"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="73" invocations="88" avgMicrosecondsPerInvocation="837" maxMicrosecondsPerInvocation="13158" standardDeviationMircosecondsPerInvocation="1590"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="70" invocations="24" avgMicrosecondsPerInvocation="2949" maxMicrosecondsPerInvocation="34870" standardDeviationMircosecondsPerInvocation="7502"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="66" invocations="38" avgMicrosecondsPerInvocation="1761" maxMicrosecondsPerInvocation="16611" standardDeviationMircosecondsPerInvocation="3798"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="59" invocations="11" avgMicrosecondsPerInvocation="5437" maxMicrosecondsPerInvocation="18742" standardDeviationMircosecondsPerInvocation="6933"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="50" invocations="7" avgMicrosecondsPerInvocation="7203" maxMicrosecondsPerInvocation="38755" standardDeviationMircosecondsPerInvocation="12972"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="49" invocations="24" avgMicrosecondsPerInvocation="2060" maxMicrosecondsPerInvocation="17848" standardDeviationMircosecondsPerInvocation="3869"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="48" invocations="24" avgMicrosecondsPerInvocation="2031" maxMicrosecondsPerInvocation="27117" standardDeviationMircosecondsPerInvocation="5773"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="47" invocations="24" avgMicrosecondsPerInvocation="1963" maxMicrosecondsPerInvocation="15373" standardDeviationMircosecondsPerInvocation="4201"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="46" invocations="25" avgMicrosecondsPerInvocation="1868" maxMicrosecondsPerInvocation="42859" standardDeviationMircosecondsPerInvocation="8368"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="46" invocations="338" avgMicrosecondsPerInvocation="137" maxMicrosecondsPerInvocation="1582" standardDeviationMircosecondsPerInvocation="166"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
