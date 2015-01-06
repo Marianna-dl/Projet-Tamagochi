@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gradle.FamilierTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-01-06T11:36:48" hostname="r30006" time="0.002">
+  <properties/>
+  <testcase name="creerFamilier" classname="org.gradle.FamilierTest" time="0.002"/>
+  <system-out><![CDATA[Test
+Je n'ai plus de batterie !
+vie familier 27
+Je suis fatigue !
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

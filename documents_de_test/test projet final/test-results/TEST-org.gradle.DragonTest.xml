@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.gradle.DragonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-01-06T11:36:48" hostname="r30006" time="0.003">
+  <properties/>
+  <testcase name="creationDragon" classname="org.gradle.DragonTest" time="0.003"/>
+  <system-out><![CDATA[Dragon
+Je n'ai plus de batterie !
+vie familier 25
+vie familier 27
+Je suis fatigue !
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

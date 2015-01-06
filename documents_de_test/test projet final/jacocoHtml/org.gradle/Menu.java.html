@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Menu.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Main</a> &gt; <a href="index.source.html" class="el_package">org.gradle</a> &gt; <span class="el_source">Menu.java</span></div><h1>Menu.java</h1><pre class="source lang-java linenums">package org.gradle;
+
+public class Menu {
+	
+<span class="fc" id="L5">	public Menu(){}</span>
+
+	public void menuCreation(){
+		
+<span class="fc" id="L9">		 System.out.println(&quot;##############-MENU-################# \n&quot; +</span>
+				  			&quot;       -Creation de votre Familier-   \n&quot; );
+
+<span class="fc" id="L12">	}</span>
+	
+	public void demanderNom(){
+<span class="fc" id="L15">		System.out.println(&quot;-Quelle nom voulez vous donner a votre Familier?-&quot;);</span>
+		
+<span class="fc" id="L17">	}</span>
+
+	public void demanderType(){
+<span class="nc" id="L20">		System.out.println(&quot;-Quelle type de Familier voulez vous?- \n&quot; +</span>
+				&quot;[1]-Robot \n&quot; +
+				&quot;[2]-Dragon&quot;);
+			
+<span class="nc" id="L24">		}</span>
+	public void affichageChoix(int choice,String nom){
+	
+<span class="nc bnc" id="L27" title="All 2 branches missed.">		if (choice==1){</span>
+<span class="nc" id="L28">			System.out.println(&quot;Votre Familier--&gt; Nom:&quot;+ nom +&quot; Type: ROBOT&quot;);</span>
+		}
+<span class="nc bnc" id="L30" title="All 2 branches missed.">		else if (choice==2){</span>
+<span class="nc" id="L31">			System.out.println(&quot;Votre Familier--&gt; Nom:&quot;+ nom +&quot; Type: DRAGON&quot;);	</span>
+		}
+			
+<span class="nc" id="L34">	}</span>
+		
+		
+	public void ChoixTacheFamilier(){
+		
+<span class="nc" id="L39">		 System.out.println(&quot;\n##############-MENU-################# \n&quot; +</span>
+		 					&quot;		[1]-Nourrir \n&quot; +
+		 					&quot;		[2]-Consulter Etat \n&quot; +
+		 					&quot;		[3]-Ne rien faire \n&quot; +
+		 					&quot;		[0]-Quitter \n&quot; );
+		
+<span class="nc" id="L45">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.1.201405082137</span></div></body></html>
