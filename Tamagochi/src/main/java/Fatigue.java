@@ -1,8 +1,10 @@
 
 public class Fatigue implements ComportementMourir{
-	
-	public String mort() {
-		return "Je suis fatiqué !";
+	public Fatigue(){
+		
+	}
+	public void mort() {
+		System.out.println("Je suis fatiqué !");
 		
 	}
 

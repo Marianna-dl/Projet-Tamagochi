@@ -1,8 +1,10 @@
 
 public class FinBatterie implements ComportementMourir {
-
-	public String mort() {
-		return "Je n'ai plus de batterie !";
+	public FinBatterie(){
+		
+	}
+	public void mort() {
+		System.out.println( "Je n'ai plus de batterie !");
 		
 	}
 

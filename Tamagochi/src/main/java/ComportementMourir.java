@@ -1,5 +1,6 @@
 
 public interface ComportementMourir {
-	public String mort();
+	
+	public void mort();
 
 }
